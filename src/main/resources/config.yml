@@ -8,6 +8,8 @@ reminderinterval: 120
 spamprotection: 3
 # The minimal amount a player has to raise for
 minincrement: 5
+# The percentage of the current pot which the next bidder has to raise for
+minraise: 0.05
 # The maximal amount of stored future auctions
 maxqueue: 1
 # The maximal amount of stored past auctions
@@ -38,15 +40,6 @@ debug: false
 defaultchat:
         # Are players listening by default?
         autojoin: true
-# Herochat configuration
-herochat:
-        enable: false
-        channel: Trade
-        password: ''
-# ChannelChat configuration
-channelchat:
-        enable: false
-        channel: Trade
 # Colors
 colors:
         default: dark_aqua
